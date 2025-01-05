@@ -1,5 +1,5 @@
 
-import logo from "../assets/RHlogo.png";
+import logo from "../assets/RedwanHossainLogo.png";
 
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'; // For Font Awesome icons
 import { AiOutlineMail } from 'react-icons/ai'; // For Ant Design icons
