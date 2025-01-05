@@ -1,4 +1,4 @@
-import aboutVideo from "../assets/StudyTimeLaps.mp4";
+import aboutVideo from "../assets/StudyTimeLaps2.mp4";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
