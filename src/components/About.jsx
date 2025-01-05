@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about.jpg";
+import aboutVideo from "../assets/StudyTimeLaps.mp4";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -16,7 +16,14 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <video
+              className="rounded-2xl"
+              src={aboutVideo}
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
           </div>
         </motion.div>
         <motion.div // Motion on text container (THIS WAS MISSING)
