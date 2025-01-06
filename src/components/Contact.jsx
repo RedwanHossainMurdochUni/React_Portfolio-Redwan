@@ -56,7 +56,7 @@ const Contact = () => {
       >
         <form
           className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-xl mx-auto"
-          action="https://formsubmit.co/your-email"
+          action="https://formsubmit.co/example@gmail.com" {/* Replace with your actual email */}
           method="POST"
         >
           <div className="mb-4">
@@ -76,7 +76,7 @@ const Contact = () => {
               Email
             </label>
             <input
-              type="email" /* Correct email validation */
+              type="email"
               name="email"
               id="email"
               required
