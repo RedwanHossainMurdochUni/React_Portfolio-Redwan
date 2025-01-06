@@ -56,11 +56,15 @@ const Contact = () => {
       >
         <form
           className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-xl mx-auto"
-          action="https://formsubmit.co/example@gmail.com" {/* Replace with your actual email */}
+          action="https://formsubmit.co/example@gmail.com" // Replace with your actual FormSubmit email
           method="POST"
         >
+          {/* Hidden Input for FormSubmit */}
+          <input type="hidden" name="_next" value="https://yoursite.com/thank-you" />
+          <input type="hidden" name="_captcha" value="false" />
+
           <div className="mb-4">
-            <label className="block text-black text-sm font-bold mb-2" htmlFor="name">
+            <label className="block text-sm font-bold mb-2" htmlFor="name">
               Name
             </label>
             <input
@@ -68,11 +72,13 @@ const Contact = () => {
               name="name"
               id="name"
               required
+              pattern="[a-zA-Z\s]+"
+              title="Please enter a valid name."
               className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-black"
             />
           </div>
           <div className="mb-4">
-            <label className="block text-black text-sm font-bold mb-2" htmlFor="email">
+            <label className="block text-sm font-bold mb-2" htmlFor="email">
               Email
             </label>
             <input
@@ -80,11 +86,13 @@ const Contact = () => {
               name="email"
               id="email"
               required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              title="Please enter a valid email address."
               className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-black"
             />
           </div>
           <div className="mb-4">
-            <label className="block text-black text-sm font-bold mb-2" htmlFor="message">
+            <label className="block text-sm font-bold mb-2" htmlFor="message">
               Message
             </label>
             <textarea
