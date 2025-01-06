@@ -74,7 +74,7 @@ const Contact = () => {
           {/* Email Field */}
           <div className="mb-4">
             <label className="block text-black text-sm font-bold mb-2" htmlFor="email">
-              Email
+              Your Email
             </label>
             <input
               type="email"
