@@ -75,6 +75,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "My address: 90 south st, Murdoch WA 6150",
-  phoneNo: "My phone: +61 420 729 557",
-  email: "My email: redwanhossain2001@gmail.comm",
+  phoneNo: "+61 420 729 557",
+  email: "redwanhossain2001@gmail.comm",
 };
