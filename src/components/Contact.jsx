@@ -10,7 +10,7 @@ const Contact = () => {
       transition: {
         duration: 0.5,
         ease: "easeOut",
-        staggerChildren: 0.3, // Add a stagger for children
+        staggerChildren: 0.3,
       },
     },
   };
@@ -30,9 +30,7 @@ const Contact = () => {
     >
       <h1 className="text-4xl font-bold mb-10">Let's Connect</h1>
       <motion.div className="contact-info space-y-6" variants={itemVariants}>
-        <p className="text-lg">
-          {CONTACT.address}
-        </p>
+        <p className="text-lg">{CONTACT.address}</p>
         <p className="text-lg">
           <a
             href={`tel:${CONTACT.phoneNo}`}
@@ -49,43 +47,6 @@ const Contact = () => {
             {CONTACT.email}
           </a>
         </p>
-      </motion.div>
-
-      {/* Social Media Icons */}
-      <motion.div
-        className="social-icons mt-8 flex justify-center space-x-6"
-        variants={containerVariants}
-      >
-        <motion.a
-          href={CONTACT.twitter}
-          target="_blank"
-          rel="noopener noreferrer"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="text-gray-600 hover:text-blue-500"
-        >
-          <i className="fab fa-twitter fa-2x"></i>
-        </motion.a>
-        <motion.a
-          href={CONTACT.linkedin}
-          target="_blank"
-          rel="noopener noreferrer"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="text-gray-600 hover:text-blue-500"
-        >
-          <i className="fab fa-linkedin fa-2x"></i>
-        </motion.a>
-        <motion.a
-          href={CONTACT.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
-          className="text-gray-600 hover:text-blue-500"
-        >
-          <i className="fab fa-github fa-2x"></i>
-        </motion.a>
       </motion.div>
 
       {/* Contact Form */}
@@ -107,7 +68,7 @@ const Contact = () => {
               name="name"
               id="name"
               required
-              className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-black"
             />
           </div>
           <div className="mb-4">
@@ -115,11 +76,11 @@ const Contact = () => {
               Email
             </label>
             <input
-              type="email"
+              type="email" /* Correct email validation */
               name="email"
               id="email"
               required
-              className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-black"
             />
           </div>
           <div className="mb-4">
@@ -131,7 +92,7 @@ const Contact = () => {
               id="message"
               rows="4"
               required
-              className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 text-black"
             ></textarea>
           </div>
           <button
