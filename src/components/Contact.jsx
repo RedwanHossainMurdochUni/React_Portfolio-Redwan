@@ -60,7 +60,7 @@ const Contact = () => {
           method="POST"
         >
           <div className="mb-4">
-            <label className="block text-sm font-bold mb-2" htmlFor="name">
+            <label className="block text-black text-sm font-bold mb-2" htmlFor="name">
               Name
             </label>
             <input
@@ -72,7 +72,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block text-sm font-bold mb-2" htmlFor="email">
+            <label className="block text-black text-sm font-bold mb-2" htmlFor="email">
               Email
             </label>
             <input
@@ -84,7 +84,7 @@ const Contact = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="block text-sm font-bold mb-2" htmlFor="message">
+            <label className="block text-black text-sm font-bold mb-2" htmlFor="message">
               Message
             </label>
             <textarea
