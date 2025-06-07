@@ -2,8 +2,10 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
-import Exprience from "./components/Exprience";
-import Projects from "./components/Projects";
+//import Exprience from "./components/Exprience";
+//import Projects from "./components/Projects";
+       // <Exprience />
+       // <Projects />
 import Contact from "./components/Contact";
 
 function App() {
@@ -19,8 +21,7 @@ function App() {
         <Hero />
         <About />
        <Technologies />
-       <Exprience />
-       <Projects />
+
        <Contact />
       </div>
     </div>
