@@ -3,9 +3,19 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Computer Science and AI student with a strong foundation in machine learning, computer vision, and large 
+language models (LLMs). Passionate about building AI-driven solutions for real-world applications, with 
+hands-on experience in object detection, natural language processing, and data visualisation. Beyond academics, 
+I have seized every opportunity to develop my communication and collaboration skills. I have served as an 
+elected Murdoch Student Guild council member, won a student partnership program and led a year-long project 
+from idea generation to implementation and handover. Furthermore, I have worked as a Peer Academic Coach 
+and senior PASS leader at Murdoch University, mentoring fellow students and peers. I firmly believe in a can
+do mindset and am eager to learn more and leverage my skills, experience, and determination to tackle 
+challenges.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I have a decent foundation in AI & ML, full-stack development, Atlassian, Microsoft Azure, and Power Apps. I also had the opportunity to experience working with people through my roles as a PASS Leader, Peer Academic Coach, and Student as Change Agent at Murdoch University. These roles have helped me build the essential soft skills needed for a client-facing consulting environment.
+As a Computer Science and AI graduate, I’m eager to grow by working on real-world IT projects like those at your company. Studying at Murdoch has given me a strong technical foundation, while my on-campus jobs have taught me how to collaborate and connect with others. Through various workshops and initiatives, I’ve developed key professional skills that I believe are valuable in IT consulting. In my role as a Peer Academic Coach, I conducted one-on-one sessions to help students navigate university systems and challenges. As a Senior PASS Leader, I facilitated sessions for over 50 students, guided them through difficult concepts, created presentations and helpful resources. My work with the Student Guild Council and as a Change Agent also taught me how to work in teams to improve campus life. These experiences have prepared me to contribute to complex projects with professionalism and Quality.
+`;
 
 // export const EXPERIENCES = [
 //   {
