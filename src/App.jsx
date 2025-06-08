@@ -4,6 +4,7 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 //import Exprience from "./components/Exprience";
 //import Projects from "./components/Projects";
+        // <Navbar />
        // <Exprience />
        // <Projects />
 import Contact from "./components/Contact";
@@ -17,7 +18,7 @@ function App() {
       </div>
       
       <div className="container mx-auto px-8">
-        <Navbar />
+
         <Hero />
         <About />
        <Technologies />
